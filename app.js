@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
+const package = require('./package.json');
+
 const pattern = process.argv[2];
 const substitute = process.argv[3];
 const filename = process.argv[4];
@@ -31,7 +33,7 @@ if (!!pattern && !!substitute && !!filename) {
     }
 } else {
     console.log(`
-Farp (v1.1.0)
+Farp (v${package.version})
 
 A tool to find and replace given pattern with substitute inside file.
 

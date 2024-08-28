@@ -1,6 +1,6 @@
 {
   "name": "farp",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A tool to find and replace pattern in given file",
   "main": "app.js",
   "scripts": {

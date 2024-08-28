@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require('fs');
 const pattern = process.argv[2];
 const substitute = process.argv[3];
